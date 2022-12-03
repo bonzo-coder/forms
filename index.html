@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Microbe&display=swap" rel="stylesheet">
+
+    <title>M Space</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="mainPage">
+        <div class="left">
+            <div id="banner">
+               <!--  <div id="logo"></div> -->
+                <div><strong style="font-size: 1.3em;">M</strong> &nbsp   SPACE</div>
+            </div>
+        </div>
+
+        <div class="rightTop">
+            <div id="banner">
+               <div>
+             <p>Watch <strong>OUT!!!</strong> This is just a fake web page, for practice purposes only - you won't order
+        any music place here. <p></div>
+        </div>
+        <div class="rightCenter">
+            <form>
+                <legend>Order Music Space now!</legend>
+                
+                    <div id="formTopLeft" class="input-container"><br>
+                    <input type="text" id="bandName" placeholder=" " required pattern="[a-zA-Z0-9 ]*$" minlength="3"/><label >Band name</label></div><br>
+                    <div id="formCenterLeft" class="input-container"><br>
+                    <input type="email" id="email" placeholder=" " required/><label>Email address</label></div><br>
+                    <div id="formBottomLeft" class="input-container"><br>
+                    <input type="date" id="calendar" class="calendar" placeholder=" " required min="2022-12-15"
+                    max="2024-12-20"/><label>Date</label></div><br>
+               
+                    
+                    <div id="formTopRight" class="input-container"><br>
+                    <input type="text" id="fullName" placeholder=" " required pattern="[a-zA-Z ]*$" minlength="6"/><label>Full name</label></div><br>
+                    <div id="formCenterRight" class="input-container"><br>
+                    <input type="tel" id="phone" placeholder=" " required pattern="[0-9]{6,15}"/><label>Phone</label></div><br>
+                    <!-- <div id="formBottomRight"><label for="amountOfPeople">Audience</label><br>
+                    <input type="range" min="100" max="40000"><br>
+                    <output id="rangeValue">Audience size</output></div><br> -->
+
+                    <div id="formBottomRight">
+                        <h4 id="radio-title">Select Audience Size</h4>
+                            <div id="audience-slider">
+                                <input type="radio" class="indicator" name="audience-size" id="home" value="home" required>
+                                <label for="home" id="homeLabel" size-amount="Home Party (100)">Home Party (100)</label>
+                                <input type="radio" class="indicator" name="audience-size" id="club" value="club" required>
+                                <label for="club" id="clubLabel" size-amount="Club (300)">Club (300)</label>
+                                <input type="radio" class="indicator" name="audience-size" id="venue" value="venue" required>
+                                <label for="venue" id="venueLabel" size-amount="Music venue (1500)">Music venue (1500)</label>
+                                <input type="radio" class="indicator" name="audience-size" id="hall" value="hall" required>
+                                <label for="hall" id="hallLabel" size-amount="Sports hall (10000)">Sports <br>hall (10000)</label>
+                                <input type="radio" class="indicator" name="audience-size" id="stadium" value="stadium" required>
+                                <label for="stadium" id="stadiumLabel" size-amount="Stadium (40000)">Stadium (40000)</label>
+                                <div id="debt-amount-pos"></div>
+                            </div>
+                       
+                        
+                    </div>
+
+                
+                
+                <button type="submit">Send</button>
+           
+           
+            </form>
+        </div>
+
+        <div class="rightBottom">fwefwef</div>
+    </div>
+</body>
+</html>
