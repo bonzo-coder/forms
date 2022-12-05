@@ -39,9 +39,9 @@
                
                     
                     <div id="formTopRight" class="input-container"><br>
-                    <input type="text" id="fullName" placeholder=" " required pattern="[a-zA-Z ]*$" minlength="6"/><label>Full name</label></div><br>
+                    <input type="text" id="fullName" placeholder=" " required pattern="^[a-zA-Z ]*$" minlength="6"/><label>Full name</label></div><br>
                     <div id="formCenterRight" class="input-container"><br>
-                    <input type="tel" id="phone" placeholder=" " required pattern="[0-9]{6,15}"/><label>Phone</label></div><br>
+                    <input type="tel" id="phone" placeholder=" " required pattern="^[0-9]{6,15}$"/><label>Phone</label></div><br>
                     <!-- <div id="formBottomRight"><label for="amountOfPeople">Audience</label><br>
                     <input type="range" min="100" max="40000"><br>
                     <output id="rangeValue">Audience size</output></div><br> -->
@@ -67,7 +67,7 @@
 
                 
                 
-                <button type="submit">Send</button>
+                <button type="submit" class="button-54">Send</button>
            
            
             </form>
